@@ -64,11 +64,42 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text("Let's Eat \nOrder Your Food Now",
-            style: TextStyle(
-              fontSize: 28.0,
-              fontWeight: FontWeight.w700
-            ),)
+            Text(
+              "Let's Eat \nOrder Your Food Now",
+              style: TextStyle(fontSize: 28.0, fontWeight: FontWeight.w700),
+            ),
+            SizedBox(
+              height: 20.0,
+            ),
+            Container(
+              width: double.infinity,
+              height: 50.0,
+              decoration: BoxDecoration(
+                  color: Color(0x55d2d2d2),
+                  borderRadius: BorderRadius.circular(30.0)),
+              child: Row(
+                children: <Widget>[
+                  Expanded(child: TextField(
+                    decoration: InputDecoration(
+                      hintText: "Search",
+                      border: InputBorder.none,
+                      contentPadding: EdgeInsets.only(left: 20.0)
+                    ),
+                  )),
+                  RaisedButton(
+                    onPressed: () {},
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 15.0),
+                      child: Icon(
+                        Icons.search,
+                        color: Colors.white,
+                      ),
+                    ),
+                    color: Color(0xFFfc6a26),
+                  )
+                ],
+              ),
+            )
           ],
         ),
       ),
