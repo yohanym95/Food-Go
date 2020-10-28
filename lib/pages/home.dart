@@ -95,11 +95,11 @@ class _MyHomePageState extends State<MyHomePage> {
               childAspectRatio: 0.7,
               children: <Widget>[
                 foodCard(imgUrl[0], "Meat Plate", "200"),
-                foodCard(imgUrl[0], "Meat Plate", "200"),
-                foodCard(imgUrl[0], "Meat Plate", "200"),
-                foodCard(imgUrl[0], "Meat Plate", "200"),
-                foodCard(imgUrl[0], "Meat Plate", "200"),
-                foodCard(imgUrl[0], "Meat Plate", "200")
+                foodCard(imgUrl[0], "Lunch Plate", "1000"),
+                foodCard(imgUrl[0], "Dinner Plate", "200"),
+                foodCard(imgUrl[0], "Prawns Plate", "550"),
+                foodCard(imgUrl[0], "Chinees Plate", "700"),
+                foodCard(imgUrl[0], "Koththu Plate", "140")
               ],
             ))
           ],
