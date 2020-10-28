@@ -37,7 +37,7 @@ class _SplashState extends State<Splash> {
                   child: Padding(
                     padding: const EdgeInsets.all(15),
                     child: Center(
-                      child: Image(image: AssetImage('assests/img/foodgo.png')),
+                      child: Image(image: AssetImage('assests/img/foodgo.jpg')),// huda change logo is that ugly
                     ),
                   ),
                 ),

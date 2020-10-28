@@ -1,3 +1,6 @@
 # Food-Go
 
-This repository has UI for food delivery application with its basic funtions.
+Food delivery application with its basic funtions.
+
+this application allow to download any one and cutomize it according to their requirement.
+
